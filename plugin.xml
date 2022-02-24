@@ -35,7 +35,13 @@
             <string>To gain insights about how customers use the app, to provide a personalized online experience, and to monetize the user by showing them targeted adverts.</string>
         </config-file>
         
+        <config-file target="*-Info.plist" parent="NSCameraUsageDescription">
+            <string>To capture customer image for profile customization and verification via QR code scanning for RFID enrollment.</string>
+        </config-file>
         
+        <config-file target="*-Info.plist" parent="NSPhotoLibraryUsageDescription">
+            <string>We access customer's photo library for profile customization and verification via QR code scanning for RFID enrollment.</string>
+        </config-file>
         
     </platform>
     
